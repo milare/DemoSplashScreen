@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386C3A61135E43BE00EB6AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A60135E43BE00EB6AAB /* UIKit.framework */; };
+		386C3A63135E43BE00EB6AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A62135E43BE00EB6AAB /* Foundation.framework */; };
+		386C3A65135E43BE00EB6AAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A64135E43BE00EB6AAB /* CoreGraphics.framework */; };
+		386C3A6B135E43BE00EB6AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A69135E43BE00EB6AAB /* InfoPlist.strings */; };
+		386C3A6E135E43BE00EB6AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3A6D135E43BE00EB6AAB /* main.m */; };
+		386C3A71135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3A70135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m */; };
+		386C3A74135E43BE00EB6AAB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A72135E43BE00EB6AAB /* MainWindow.xib */; };
+		386C3A77135E43BE00EB6AAB /* DemoSplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3A76135E43BE00EB6AAB /* DemoSplashScreenViewController.m */; };
+		386C3A7A135E43BE00EB6AAB /* DemoSplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A78135E43BE00EB6AAB /* DemoSplashScreenViewController.xib */; };
+		386C3A81135E43BE00EB6AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A60135E43BE00EB6AAB /* UIKit.framework */; };
+		386C3A82135E43BE00EB6AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A62135E43BE00EB6AAB /* Foundation.framework */; };
+		386C3A83135E43BE00EB6AAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C3A64135E43BE00EB6AAB /* CoreGraphics.framework */; };
+		386C3A8B135E43BF00EB6AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A89135E43BF00EB6AAB /* InfoPlist.strings */; };
+		386C3A8E135E43BF00EB6AAB /* DemoSplashScreenTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A8D135E43BF00EB6AAB /* DemoSplashScreenTests.h */; };
+		386C3A90135E43BF00EB6AAB /* DemoSplashScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3A8F135E43BF00EB6AAB /* DemoSplashScreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386C3A84135E43BE00EB6AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386C3A53135E43BE00EB6AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386C3A5B135E43BE00EB6AAB;
+			remoteInfo = DemoSplashScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386C3A5C135E43BE00EB6AAB /* DemoSplashScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSplashScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386C3A60135E43BE00EB6AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		386C3A62135E43BE00EB6AAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		386C3A64135E43BE00EB6AAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		386C3A68135E43BE00EB6AAB /* DemoSplashScreen-Info.plist */ = {isa = PBXFileReference; path = "DemoSplashScreen-Info.plist"; sourceTree = "<group>"; };
+		386C3A6A135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386C3A6C135E43BE00EB6AAB /* DemoSplashScreen-Prefix.pch */ = {isa = PBXFileReference; path = "DemoSplashScreen-Prefix.pch"; sourceTree = "<group>"; };
+		386C3A6D135E43BE00EB6AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		386C3A6F135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.h */ = {isa = PBXFileReference; path = DemoSplashScreenAppDelegate.h; sourceTree = "<group>"; };
+		386C3A70135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenAppDelegate.m; sourceTree = "<group>"; };
+		386C3A73135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		386C3A75135E43BE00EB6AAB /* DemoSplashScreenViewController.h */ = {isa = PBXFileReference; path = DemoSplashScreenViewController.h; sourceTree = "<group>"; };
+		386C3A76135E43BE00EB6AAB /* DemoSplashScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenViewController.m; sourceTree = "<group>"; };
+		386C3A79135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoSplashScreenViewController.xib; sourceTree = "<group>"; };
+		386C3A80135E43BE00EB6AAB /* DemoSplashScreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSplashScreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386C3A88135E43BF00EB6AAB /* DemoSplashScreenTests-Info.plist */ = {isa = PBXFileReference; path = "DemoSplashScreenTests-Info.plist"; sourceTree = "<group>"; };
+		386C3A8A135E43BF00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386C3A8C135E43BF00EB6AAB /* DemoSplashScreenTests-Prefix.pch */ = {isa = PBXFileReference; path = "DemoSplashScreenTests-Prefix.pch"; sourceTree = "<group>"; };
+		386C3A8D135E43BF00EB6AAB /* DemoSplashScreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSplashScreenTests.h; sourceTree = "<group>"; };
+		386C3A8F135E43BF00EB6AAB /* DemoSplashScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386C3A59135E43BE00EB6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A61135E43BE00EB6AAB /* UIKit.framework in Frameworks */,
+				386C3A63135E43BE00EB6AAB /* Foundation.framework in Frameworks */,
+				386C3A65135E43BE00EB6AAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386C3A7C135E43BE00EB6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A81135E43BE00EB6AAB /* UIKit.framework in Frameworks */,
+				386C3A82135E43BE00EB6AAB /* Foundation.framework in Frameworks */,
+				386C3A83135E43BE00EB6AAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386C3A51135E43BE00EB6AAB = {
+			isa = PBXGroup;
+			children = (
+				386C3A66135E43BE00EB6AAB /* DemoSplashScreen */,
+				386C3A86135E43BE00EB6AAB /* DemoSplashScreenTests */,
+				386C3A5F135E43BE00EB6AAB /* Frameworks */,
+				386C3A5D135E43BE00EB6AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386C3A5D135E43BE00EB6AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A5C135E43BE00EB6AAB /* DemoSplashScreen.app */,
+				386C3A80135E43BE00EB6AAB /* DemoSplashScreenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386C3A5F135E43BE00EB6AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A60135E43BE00EB6AAB /* UIKit.framework */,
+				386C3A62135E43BE00EB6AAB /* Foundation.framework */,
+				386C3A64135E43BE00EB6AAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		386C3A66135E43BE00EB6AAB /* DemoSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A6F135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.h */,
+				386C3A70135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m */,
+				386C3A72135E43BE00EB6AAB /* MainWindow.xib */,
+				386C3A75135E43BE00EB6AAB /* DemoSplashScreenViewController.h */,
+				386C3A76135E43BE00EB6AAB /* DemoSplashScreenViewController.m */,
+				386C3A78135E43BE00EB6AAB /* DemoSplashScreenViewController.xib */,
+				386C3A67135E43BE00EB6AAB /* Supporting Files */,
+			);
+			path = DemoSplashScreen;
+			sourceTree = "<group>";
+		};
+		386C3A67135E43BE00EB6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A68135E43BE00EB6AAB /* DemoSplashScreen-Info.plist */,
+				386C3A69135E43BE00EB6AAB /* InfoPlist.strings */,
+				386C3A6C135E43BE00EB6AAB /* DemoSplashScreen-Prefix.pch */,
+				386C3A6D135E43BE00EB6AAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		386C3A86135E43BE00EB6AAB /* DemoSplashScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A8D135E43BF00EB6AAB /* DemoSplashScreenTests.h */,
+				386C3A8F135E43BF00EB6AAB /* DemoSplashScreenTests.m */,
+				386C3A87135E43BF00EB6AAB /* Supporting Files */,
+			);
+			path = DemoSplashScreenTests;
+			sourceTree = "<group>";
+		};
+		386C3A87135E43BF00EB6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				386C3A88135E43BF00EB6AAB /* DemoSplashScreenTests-Info.plist */,
+				386C3A89135E43BF00EB6AAB /* InfoPlist.strings */,
+				386C3A8C135E43BF00EB6AAB /* DemoSplashScreenTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386C3A5B135E43BE00EB6AAB /* DemoSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386C3A93135E43BF00EB6AAB /* Build configuration list for PBXNativeTarget "DemoSplashScreen" */;
+			buildPhases = (
+				386C3A58135E43BE00EB6AAB /* Sources */,
+				386C3A59135E43BE00EB6AAB /* Frameworks */,
+				386C3A5A135E43BE00EB6AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoSplashScreen;
+			productName = DemoSplashScreen;
+			productReference = 386C3A5C135E43BE00EB6AAB /* DemoSplashScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386C3A7F135E43BE00EB6AAB /* DemoSplashScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386C3A96135E43BF00EB6AAB /* Build configuration list for PBXNativeTarget "DemoSplashScreenTests" */;
+			buildPhases = (
+				386C3A7B135E43BE00EB6AAB /* Sources */,
+				386C3A7C135E43BE00EB6AAB /* Frameworks */,
+				386C3A7D135E43BE00EB6AAB /* Resources */,
+				386C3A7E135E43BE00EB6AAB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386C3A85135E43BE00EB6AAB /* PBXTargetDependency */,
+			);
+			name = DemoSplashScreenTests;
+			productName = DemoSplashScreenTests;
+			productReference = 386C3A80135E43BE00EB6AAB /* DemoSplashScreenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386C3A53135E43BE00EB6AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = home;
+			};
+			buildConfigurationList = 386C3A56135E43BE00EB6AAB /* Build configuration list for PBXProject "DemoSplashScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 386C3A51135E43BE00EB6AAB;
+			productRefGroup = 386C3A5D135E43BE00EB6AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386C3A5B135E43BE00EB6AAB /* DemoSplashScreen */,
+				386C3A7F135E43BE00EB6AAB /* DemoSplashScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386C3A5A135E43BE00EB6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A6B135E43BE00EB6AAB /* InfoPlist.strings in Resources */,
+				386C3A74135E43BE00EB6AAB /* MainWindow.xib in Resources */,
+				386C3A7A135E43BE00EB6AAB /* DemoSplashScreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386C3A7D135E43BE00EB6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A8B135E43BF00EB6AAB /* InfoPlist.strings in Resources */,
+				386C3A8E135E43BF00EB6AAB /* DemoSplashScreenTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		386C3A7E135E43BE00EB6AAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386C3A58135E43BE00EB6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A6E135E43BE00EB6AAB /* main.m in Sources */,
+				386C3A71135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m in Sources */,
+				386C3A77135E43BE00EB6AAB /* DemoSplashScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386C3A7B135E43BE00EB6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C3A90135E43BF00EB6AAB /* DemoSplashScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386C3A85135E43BE00EB6AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386C3A5B135E43BE00EB6AAB /* DemoSplashScreen */;
+			targetProxy = 386C3A84135E43BE00EB6AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386C3A69135E43BE00EB6AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386C3A6A135E43BE00EB6AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		386C3A72135E43BE00EB6AAB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386C3A73135E43BE00EB6AAB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		386C3A78135E43BE00EB6AAB /* DemoSplashScreenViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386C3A79135E43BE00EB6AAB /* en */,
+			);
+			name = DemoSplashScreenViewController.xib;
+			sourceTree = "<group>";
+		};
+		386C3A89135E43BF00EB6AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386C3A8A135E43BF00EB6AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386C3A91135E43BF00EB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		386C3A92135E43BF00EB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		386C3A94135E43BF00EB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSplashScreen/DemoSplashScreen-Prefix.pch";
+				INFOPLIST_FILE = "DemoSplashScreen/DemoSplashScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		386C3A95135E43BF00EB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSplashScreen/DemoSplashScreen-Prefix.pch";
+				INFOPLIST_FILE = "DemoSplashScreen/DemoSplashScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		386C3A97135E43BF00EB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSplashScreen.app/DemoSplashScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSplashScreenTests/DemoSplashScreenTests-Prefix.pch";
+				INFOPLIST_FILE = "DemoSplashScreenTests/DemoSplashScreenTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		386C3A98135E43BF00EB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSplashScreen.app/DemoSplashScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSplashScreenTests/DemoSplashScreenTests-Prefix.pch";
+				INFOPLIST_FILE = "DemoSplashScreenTests/DemoSplashScreenTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386C3A56135E43BE00EB6AAB /* Build configuration list for PBXProject "DemoSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386C3A91135E43BF00EB6AAB /* Debug */,
+				386C3A92135E43BF00EB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386C3A93135E43BF00EB6AAB /* Build configuration list for PBXNativeTarget "DemoSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386C3A94135E43BF00EB6AAB /* Debug */,
+				386C3A95135E43BF00EB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		386C3A96135E43BF00EB6AAB /* Build configuration list for PBXNativeTarget "DemoSplashScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386C3A97135E43BF00EB6AAB /* Debug */,
+				386C3A98135E43BF00EB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386C3A53135E43BE00EB6AAB /* Project object */;
+}
