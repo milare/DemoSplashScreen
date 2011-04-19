@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SplashScreenViewController.h"
+
+#define SPLASH_HIDE_DELAY    1.0f
 
 @interface DemoSplashScreenViewController : UIViewController {
-    
+    // Splash Screen
+    SplashScreenViewController *splashViewController;
 }
+@property (retain, nonatomic) SplashScreenViewController *splashViewController;
+
+
+/**
+ * Splash Screen
+ **/
+- (void)showSplash;
+- (void)hideSplash;
+
 
 @end

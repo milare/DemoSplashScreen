@@ -7,7 +7,6 @@
 //
 
 #import "DemoSplashScreenAppDelegate.h"
-
 #import "DemoSplashScreenViewController.h"
 
 @implementation DemoSplashScreenAppDelegate
@@ -19,10 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    [(DemoSplashScreenViewController*) self.window.rootViewController showSplash];
     return YES;
 }
 

@@ -22,6 +22,8 @@
 		386C3A8B135E43BF00EB6AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A89135E43BF00EB6AAB /* InfoPlist.strings */; };
 		386C3A8E135E43BF00EB6AAB /* DemoSplashScreenTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 386C3A8D135E43BF00EB6AAB /* DemoSplashScreenTests.h */; };
 		386C3A90135E43BF00EB6AAB /* DemoSplashScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3A8F135E43BF00EB6AAB /* DemoSplashScreenTests.m */; };
+		386C3AA4135E443000EB6AAB /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C3AA2135E443000EB6AAB /* SplashScreenViewController.m */; };
+		386C3AA5135E443000EB6AAB /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386C3AA3135E443000EB6AAB /* SplashScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,25 @@
 		386C3A60135E43BE00EB6AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		386C3A62135E43BE00EB6AAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		386C3A64135E43BE00EB6AAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		386C3A68135E43BE00EB6AAB /* DemoSplashScreen-Info.plist */ = {isa = PBXFileReference; path = "DemoSplashScreen-Info.plist"; sourceTree = "<group>"; };
+		386C3A68135E43BE00EB6AAB /* DemoSplashScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSplashScreen-Info.plist"; sourceTree = "<group>"; };
 		386C3A6A135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		386C3A6C135E43BE00EB6AAB /* DemoSplashScreen-Prefix.pch */ = {isa = PBXFileReference; path = "DemoSplashScreen-Prefix.pch"; sourceTree = "<group>"; };
+		386C3A6C135E43BE00EB6AAB /* DemoSplashScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSplashScreen-Prefix.pch"; sourceTree = "<group>"; };
 		386C3A6D135E43BE00EB6AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		386C3A6F135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.h */ = {isa = PBXFileReference; path = DemoSplashScreenAppDelegate.h; sourceTree = "<group>"; };
+		386C3A6F135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSplashScreenAppDelegate.h; sourceTree = "<group>"; };
 		386C3A70135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenAppDelegate.m; sourceTree = "<group>"; };
 		386C3A73135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		386C3A75135E43BE00EB6AAB /* DemoSplashScreenViewController.h */ = {isa = PBXFileReference; path = DemoSplashScreenViewController.h; sourceTree = "<group>"; };
+		386C3A75135E43BE00EB6AAB /* DemoSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSplashScreenViewController.h; sourceTree = "<group>"; };
 		386C3A76135E43BE00EB6AAB /* DemoSplashScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenViewController.m; sourceTree = "<group>"; };
 		386C3A79135E43BE00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoSplashScreenViewController.xib; sourceTree = "<group>"; };
 		386C3A80135E43BE00EB6AAB /* DemoSplashScreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSplashScreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		386C3A88135E43BF00EB6AAB /* DemoSplashScreenTests-Info.plist */ = {isa = PBXFileReference; path = "DemoSplashScreenTests-Info.plist"; sourceTree = "<group>"; };
+		386C3A88135E43BF00EB6AAB /* DemoSplashScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSplashScreenTests-Info.plist"; sourceTree = "<group>"; };
 		386C3A8A135E43BF00EB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		386C3A8C135E43BF00EB6AAB /* DemoSplashScreenTests-Prefix.pch */ = {isa = PBXFileReference; path = "DemoSplashScreenTests-Prefix.pch"; sourceTree = "<group>"; };
+		386C3A8C135E43BF00EB6AAB /* DemoSplashScreenTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSplashScreenTests-Prefix.pch"; sourceTree = "<group>"; };
 		386C3A8D135E43BF00EB6AAB /* DemoSplashScreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSplashScreenTests.h; sourceTree = "<group>"; };
 		386C3A8F135E43BF00EB6AAB /* DemoSplashScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSplashScreenTests.m; sourceTree = "<group>"; };
+		386C3AA1135E443000EB6AAB /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		386C3AA2135E443000EB6AAB /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		386C3AA3135E443000EB6AAB /* SplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				386C3A76135E43BE00EB6AAB /* DemoSplashScreenViewController.m */,
 				386C3A78135E43BE00EB6AAB /* DemoSplashScreenViewController.xib */,
 				386C3A67135E43BE00EB6AAB /* Supporting Files */,
+				386C3AA1135E443000EB6AAB /* SplashScreenViewController.h */,
+				386C3AA2135E443000EB6AAB /* SplashScreenViewController.m */,
+				386C3AA3135E443000EB6AAB /* SplashScreenViewController.xib */,
 			);
 			path = DemoSplashScreen;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 				386C3A6B135E43BE00EB6AAB /* InfoPlist.strings in Resources */,
 				386C3A74135E43BE00EB6AAB /* MainWindow.xib in Resources */,
 				386C3A7A135E43BE00EB6AAB /* DemoSplashScreenViewController.xib in Resources */,
+				386C3AA5135E443000EB6AAB /* SplashScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 				386C3A6E135E43BE00EB6AAB /* main.m in Sources */,
 				386C3A71135E43BE00EB6AAB /* DemoSplashScreenAppDelegate.m in Sources */,
 				386C3A77135E43BE00EB6AAB /* DemoSplashScreenViewController.m in Sources */,
+				386C3AA4135E443000EB6AAB /* SplashScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

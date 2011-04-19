@@ -1,14 +1,24 @@
 //
-//  DemoSplashScreenViewController.m
+//  SplashScreenViewController.m
 //  DemoSplashScreen
 //
 //  Created by Bruno Macedo on 19/04/11.
 //  Copyright 2011 home. All rights reserved.
 //
 
-#import "DemoSplashScreenViewController.h"
+#import "SplashScreenViewController.h"
 
-@implementation DemoSplashScreenViewController
+
+@implementation SplashScreenViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)dealloc
 {
@@ -23,34 +33,13 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-/**
- * Splash Screen
- **/
-@synthesize splashViewController;
-
-- (void)showSplash
-{
-    self.splashViewController = [[SplashScreenViewController alloc] init];
-    [self presentModalViewController: splashViewController animated:NO];
-    [self performSelector:@selector(hideSplash) withObject:nil afterDelay: SPLASH_HIDE_DELAY];
-}
-
-
-- (void)hideSplash
-{
-    [[self splashViewController] dismissModalViewControllerAnimated: YES];
-}
-
-
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
-*/
 
 - (void)viewDidUnload
 {
